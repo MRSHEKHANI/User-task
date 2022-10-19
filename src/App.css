@@ -1,0 +1,70 @@
+.nav-hero {
+  margin: 10px;
+  margin-left: 60px;
+}
+
+.user-profile {
+  border: 1px solid black;
+  justify-content: center;
+  margin: auto;
+  width: 330px;
+  cursor: pointer;
+}
+
+.user-profile .round-img {
+  border-radius: 50px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.user-profile .center {
+  margin-left: 70px;
+  margin-top: -70px;
+}
+
+.user-profile .ageofuser {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 20px;
+  /* vertical-align: bottom; */
+  margin: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  /* margin: auto; */
+  outline: none;
+}
+
+.nameinput {
+  justify-content: center;
+  margin: auto;
+}
+.statusinput {
+  justify-content: center;
+  margin: auto;
+}
+
+.emailinput {
+  justify-content: center;
+  margin: auto;
+}
+
+.ageinput {
+  justify-content: center;
+  margin: auto;
+}
+
+.publicinput {
+  justify-content: center;
+  margin: auto;
+}
+
+.create-btn {
+  padding: 15px 25px;
+  border-radius: 5px;
+  /* outline: none; */
+  border: none;
+  font-size: 14px;
+}

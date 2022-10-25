@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { json } from "react-router-dom";
 import UserItem from "./UserItem";
 
@@ -39,6 +39,10 @@ const Users = () => {
   //     statusMessage: "working from home",
   //   },
   // ]);
+
+  useEffect(() => {
+    getApi();
+  }, []);
 
   return (
     <div>

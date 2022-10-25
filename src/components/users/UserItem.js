@@ -13,20 +13,21 @@ const UserItem = (props) => {
     <div className="user-profile">
       <div className="img-url">
         <img
-          src={props.user.avatarUrl}
+          src={props.data.avatarUrl}
           alt=""
           className="round-img"
           style={{ width: "50px" }}
         />
       </div>
       <div className="center">
-        <div className="user-name">Name: {props.user.name} </div>
-        <div className="user-status">Status: {props.user.statusMessage} </div>
+        <div className="user-name">Name: {props.data.name} </div>
+        <div className="user-status">Status: {props.data.statusMessage} </div>
         <div className="created-user-profile">
-          Created at: {props.user.createdAt}{" "}
+          Created at: {props.data.createdAt}{" "}
         </div>
       </div>
-      <div className="ageofuser">Age : {props.user.age} </div>
+      <div className="user-id"> {props.data.id} </div>
+      <div className="ageofuser">Age : {props.data.age} </div>
     </div>
   );
 };
